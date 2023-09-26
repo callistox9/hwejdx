@@ -6,14 +6,16 @@
 body {
     margin : 0;
     font-family:Inter, sans-serif;
-    background-color:#21222A;
-    
+    background-color:#212331;
+    background-image: url(/src/images/react_logo.png);
+    background-repeat: no-repeat;
+     
 } 
 
 nav{
     display :flex;
     align-items:center;
-    background-color:#21222A;
+    background-color:#191a1f;
     padding:35px 30px;
 }
 nav > h3{
@@ -42,6 +44,28 @@ nav > img {
 .main{
     justify-content: center;
     font-family: sans-serif;
-    font-size: large;
+    font-size: 50px;
     color: #ffffff;
+    font-weight: 600;
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+.facts{
+    color: #ffffff;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-block: 10px ;
+    
+}
+.facts >li{
+    padding-block: 10px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 600;
+}
+.facts >li::marker{
+    font-size: 1.4rem;
+    color: aqua;
+
 }
